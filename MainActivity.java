@@ -12,11 +12,12 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     // Now create two reference variables with the EditText type.
-    EditText FirstNumber;
-    EditText SecondNumber;
+    EditText FirstNumber; // reference variable for the first number.
+    EditText SecondNumber; // reference vairable for the second number.
 
     // Now create a variable for the Total, that has the type of EditText
-    EditText TotalNumber;
+    EditText TotalNumber;  // reference vairable for the total.
+
 
     // Now create a button variable for the
     Button buttonAdd;
