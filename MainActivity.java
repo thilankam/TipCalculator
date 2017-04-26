@@ -52,8 +52,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void onClickFivePercentMethod(View view) {
-        double num1;
-        double fivePercentTipValue;
+        double num1;   // This variable num1 here is local.
+        double fivePercentTipValue; // five Percent TipValue .
         num1 = Double.parseDouble(FirstNumber.getText().toString());
 
         fivePercentTipValue = (num1*(0.05));
@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickTenPercentMethod(View view) {
 
         double num1;
-        double tenPercentTipValue;
+        double tenPercentTipValue;  // ten Percent Tip Value.
         num1 = Double.parseDouble(FirstNumber.getText().toString());
 
         tenPercentTipValue = (num1*(0.10));
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
     public void onClickFifteenPercentMethod(View view) {
 
         double num1;
-        double fifteenPercentTipValue;
+        double fifteenPercentTipValue;  // fifteen Percent Tip Value.
         num1 = Double.parseDouble(FirstNumber.getText().toString());
 
         fifteenPercentTipValue = (num1*(0.15));
